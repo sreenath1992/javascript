@@ -48,6 +48,7 @@ const setBackground = (temperature) => {
     }
   };
 
+  
   inputBox.addEventListener("input", () => {
     setBackground(data.current.temp_c);
   });
